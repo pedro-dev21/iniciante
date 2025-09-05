@@ -80,13 +80,39 @@
 <!-- input type= radio, para criar esse botão de envio juuntamente com o formulario  -->
 
 <h2>Formulários</h2> 
-
-<input type="radio"> <id="masculino" name="genero" value="masculino">Masculino
+<!-- label é a legenda para nomes  -->
+  <input type="radio"> <id="homem" name="homem" value="homem"><label for="masculino">homem</label>
   <br>
-  <input type="radio"> <id="feminino" name="genero" value="feminino">feminino
+  <input type="radio"> <id="mulher" name="mulher" value="feminino"><label for="feminino">mulher</label>
 <br>
 <input type="submit" value="Enviar Formulários">
+<br>
+<br>
+<input id=item1 type="checkbox" name="item2" value="TV"><label for="item1">TV</label>
+<br>
+<input id=item2 type="checkbox" name="item2" value="GELADEIRA"><label for="item2">GELADEIRA</label>
+<br>
 
 
+<h2>ESCOLHA UMA COR</h2>
+<!-- função select para fazer caixinhas de esolhas  -->
+<select>  <option selected disabled value="selecione uma cor">selecione uma cor</option>
+  <option  value="azul">azul</option>
+  <option value="vermelho">vermelho</option>
+<option value="laranja">laranja</option>
+</select>
+  <br> <br> <br> <br> <br>
+
+
+
+   <input type="submit" value="Enviar formulario">
+
+   <br>
+   <!-- textare para caixa de texto -->
+   <h2> digite sua mensagem</h2>
+   <textarea required placeholder name ="digite aqui a sua mensagem"rows="15" cols="55" texto de exemplo></textarea> 
+    <br> <br>
+    
+<button>Enviar Mensagem</button>
 </body> 
 </html>
